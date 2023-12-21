@@ -1,0 +1,192 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Playpen+Sans:wght@200;300;400;500;600&family=Roboto:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+  
+}
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Martel Sans', sans-serif;
+}
+.btn{
+    cursor: pointer;
+}
+
+.main {
+
+    /* height: 1150px; */
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/6b2842d1-2339-4f08-84f6-148e9fcbe01b/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    position: relative;
+    /* background-color: aqua; */
+    /* background-position: center center ; */
+    background-repeat: no-repeat; 
+    /* background-size: max(1200px,100vw); */
+    /* padding-bottom: 210px; */
+
+
+    
+}
+nav{
+    height: 100px;
+    max-width: 76vw;
+    /* padding-top: 10px; */
+    margin-left: 44px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.logo{
+    
+    height: 45px;
+    position: relative;
+    z-index: 1;
+}
+
+.box {
+
+    height: 1113px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    /* padding-bottom: 210px; */
+}
+.form{
+    background-color: rgba(0,0,0,.6);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0 530px;
+    padding: 60px 60px;
+    row-gap: 20px;
+    z-index: 10;
+}
+input{
+
+    height: 50px;
+    background-color: #333333;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 20px ;
+    border: none;
+}
+.submit {
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    position: relative;
+    font-size: larger;
+    z-index: 1;
+    /* padding: 17px 28px; */
+    font-weight: 600;
+    /* margin-left: 20px; */
+    border: 0;
+
+
+}
+.form >:nth-child(6){
+    position: absolute;
+    color: #737373;
+    font-size: 14px;
+    top: 365px;
+    left: 80px;
+
+}
+.form>:nth-child(8){
+    position: absolute;
+    color: #737373;
+    top: 365px;
+    font-size: 14px;
+    right: 60px;
+    text-decoration: none;
+
+}
+.form>:nth-child(11){
+    color: #737373;
+
+}
+.form>:nth-child(11)>a{
+    color: white;
+    text-decoration: none;
+}
+.form>:nth-child(12){
+    font-size: 14px;
+    color: #737373;
+
+}
+.form>:nth-child(12)>a{
+    color: #0071eb;
+    font-size: 14px;
+}
+
+#checkbox{
+    height: 14px;
+    /* width: 13px; */
+    background-color: red;
+
+    position: absolute;
+    top: 365px;
+    
+
+
+}
+footer {
+    /* display: flex; */
+    background-color: rgba(0,0,0,.6);
+    margin-top: 100px ;
+    padding: 49px 250px;
+    
+    font-size: 15px;
+    color: #b3b3b3;
+    position: relative;
+
+}
+
+footer a {
+    color: #b3b3b3;
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+    font-size: small;
+}
+
+.call {
+    margin-bottom: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.lang-logo2 {
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 12px;
+    padding-left: 35px;
+
+}
+
+.globe {
+   height: 45px;
+   width: 114px;
+   background-color: rgba(0,0,0,.6);
+   padding-left: 40px;
+   color: #737373;
+}
+.lang{
+    margin-left: 20px;
+}
