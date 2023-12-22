@@ -62,8 +62,10 @@ nav{
     display: flex;
     position: relative;
     flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin: 0 530px;
-    padding: 60px 60px;
+    padding: 60px 60px; 
     row-gap: 20px;
     z-index: 10;
 }
@@ -73,6 +75,7 @@ input{
     background-color: #333333;
     border-radius: 4px;
     padding-left: 20px;
+    /* width: 50%; */
     font-size: 20px ;
     border: none;
 }
@@ -90,6 +93,11 @@ input{
     border: 0;
 
 
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .form >:nth-child(6){
     position: absolute;
